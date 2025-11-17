@@ -7,21 +7,21 @@
 </head>
 
 <body>
-	<h2>Shopping List</h2>
-
 <input type="text" id="item-name-input" placeholder="Item name" aria-label="Item name">
+<input type="number" id="item-qty-input" placeholder="Quantity" aria-label="Item quantity">
 <input type="number" id="item-price-input" placeholder="Price" aria-label="Item price">
 <button id="add" role="button">Add</button>
 
 <table role="table">
   <thead>
     <tr>
-      <th>Item Name</th>
+      <th>Item</th>
+      <th>Qty</th>
       <th>Price</th>
+      <th>Subtotal</th>
     </tr>
   </thead>
   <tbody id="table-body">
-    <!-- initially empty -->
   </tbody>
 </table>
 
